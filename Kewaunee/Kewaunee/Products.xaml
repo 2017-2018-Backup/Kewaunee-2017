@@ -1,0 +1,87 @@
+﻿<Window x:Class="Kewaunee.Products"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Products" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow" Closed="Window_Closed_1" Closing="Window_Closing_1" ResizeMode="NoResize" Height="610" Width="590">
+    <Grid Margin="4">
+        <TabControl Name="tbProducts" Background="Transparent">
+            <TabItem Header="Products" Name="tbProductsAdd">
+                <Grid>
+                    <Label Content="Item Code" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                    <TextBox Name="txtItemCode" TabIndex="0" HorizontalAlignment="Left" Height="23"  VerticalAlignment="Top" Width="139" Margin="131,13,0,0"/>
+                    <Label Content="Item Description" HorizontalAlignment="Left" Margin="10,44,0,0" VerticalAlignment="Top"/>
+                    <TextBox Name="txtItemDescription" TabIndex="1" HorizontalAlignment="Left" Height="23"  VerticalAlignment="Top" Width="139" Margin="131,47,0,0"/>
+                    <Label Content="Group Header" HorizontalAlignment="Left" Margin="10,83,0,0" VerticalAlignment="Top"/>
+                    <ComboBox Name="cmbGroupHeader" TabIndex="2" IsEditable="True" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="131,86,0,0" SelectionChanged="cmbGroupHeader_SelectionChanged"></ComboBox>
+                    <Label Content="Main Product Group" HorizontalAlignment="Left" Margin="10,117,0,0" VerticalAlignment="Top"/>
+                    <ComboBox Name="cmbMainProductGroup" SelectionChanged="cmbGroupHeader_SelectionChanged" TabIndex="3" IsEditable="True" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="131,120,0,0"/>
+                    <Label Content="Sub Group-1" HorizontalAlignment="Left" Margin="10,156,0,0" VerticalAlignment="Top"/>
+                    <ComboBox SelectionChanged="cmbGroupHeader_SelectionChanged" Name="sbGroup1" TabIndex="4" IsEditable="True" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="131,159,0,0"/>
+                    <Label Content="Sub Group-2" HorizontalAlignment="Left" Margin="10,194,0,0" VerticalAlignment="Top"/>
+                    <ComboBox SelectionChanged="cmbGroupHeader_SelectionChanged" Name="sbGroup2" TabIndex="5" IsEditable="True" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="131,197,0,0"/>
+                    <Label  Content="Sub Group-3" HorizontalAlignment="Left" Margin="10,232,0,0" VerticalAlignment="Top"/>
+                    <ComboBox SelectionChanged="cmbGroupHeader_SelectionChanged" Name="sbGroup3" TabIndex="6" IsEditable="True" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="131,235,0,0"/>
+                    <Label Content="Sub Group-4" HorizontalAlignment="Left" Margin="10,269,0,0" VerticalAlignment="Top"/>
+                    <ComboBox SelectionChanged="cmbGroupHeader_SelectionChanged" Name="sbGroup4" TabIndex="7" IsEditable="True" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="131,272,0,0"/>
+                    <Label Content="Sub Group-5" HorizontalAlignment="Left" Margin="10,309,0,0" VerticalAlignment="Top"/>
+                    <ComboBox SelectionChanged="cmbGroupHeader_SelectionChanged" Name="sbGroup5" TabIndex="8" IsEditable="True" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="131,312,0,0"/>
+                    <Label Content="Sub Group-6" HorizontalAlignment="Left" Margin="10,346,0,0" VerticalAlignment="Top"/>
+                    <ComboBox SelectionChanged="cmbGroupHeader_SelectionChanged" Name="sbGroup6" TabIndex="9" IsEditable="True" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="131,349,0,0"/>
+                    <Label Content="Sub Group-8" HorizontalAlignment="Left" Margin="10,427,0,0" VerticalAlignment="Top"/>
+                    <ComboBox SelectionChanged="cmbGroupHeader_SelectionChanged" Name="sbGroup8" TabIndex="11" IsEditable="True" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="131,430,0,0"/>
+                    <Label Content="Product Family" HorizontalAlignment="Left" Margin="295,10,0,0" VerticalAlignment="Top"/>
+                    <TextBox Name="txtProdtFamily" HorizontalAlignment="Left" TabIndex="12" Height="23" VerticalAlignment="Top" Width="139" Margin="416,13,0,0"/>
+                    <Label Content="Item Purchase Type" HorizontalAlignment="Left" Margin="295,44,0,0" VerticalAlignment="Top"/>
+                    <ComboBox SelectionChanged="cmbGroupHeader_SelectionChanged" Name="cmbItemPurchaseType" TabIndex="13" IsEditable="True" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="416,47,0,0"/>
+                    <TextBlock TextWrapping="Wrap" Text="Price in USD - P.Y (Present Year)" HorizontalAlignment="Left" Margin="295,83,0,0" VerticalAlignment="Top" Height="34" Width="116"/>
+                    <TextBox Name="txtUSDPY" TabIndex="14" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="416,86,0,0"/>
+                    <TextBlock TextWrapping="Wrap" Text="Price in USD - C.Y (Completed Year)" HorizontalAlignment="Left" Margin="295,117,0,0" VerticalAlignment="Top" Height="34" Width="100"/>
+                    <TextBox Name="txtUSDCY" TabIndex="15" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="416,120,0,0"/>
+                    <TextBlock TextWrapping="Wrap"  Text="Price in INR - P.Y (Present Year)" HorizontalAlignment="Left" Margin="295,156,0,0" VerticalAlignment="Top" Height="33" Width="113"/>
+                    <TextBox Name="txtINRPY" TabIndex="16" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="416,159,0,0"/>
+                    <TextBlock TextWrapping="Wrap" Text="Price in INR - C.Y (Completed Year)" HorizontalAlignment="Left" Margin="295,194,0,0" VerticalAlignment="Top" Height="33" Width="113"/>
+                    <TextBox Name="txtINRCY"  TabIndex="17" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="416,197,0,0"/>
+                    <Label Content="Unit of Measures" HorizontalAlignment="Left" Margin="295,232,0,0" VerticalAlignment="Top"/>
+                    <!--<TextBox Name="txtunitOfMeasures" TabIndex="18" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="416,235,0,0"/>-->
+                    <ComboBox Name="cmbunitOfMeasures" TabIndex="18" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="416,235,0,0"></ComboBox>
+                    <Label Content="Sub Group-7" HorizontalAlignment="Left" Margin="10,384,0,0" VerticalAlignment="Top"/>
+                    <ComboBox SelectionChanged="cmbGroupHeader_SelectionChanged" Name="sbGroup7"  TabIndex="10" IsEditable="True" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="131,387,0,0"/>
+                    <Label Content="ED applicable" HorizontalAlignment="Left" Margin="295,269,0,0" VerticalAlignment="Top"/>
+                    <TextBox Name="txtedapplicable" TabIndex="19" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="416,272,0,0"/>
+                    <Label Content="VAT applicable" HorizontalAlignment="Left" Margin="295,309,0,0" VerticalAlignment="Top"/>
+                    <TextBox Name="txtVatApplicable" TabIndex="20" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="416,312,0,0"/>
+                    <Label Content="Package Type" HorizontalAlignment="Left" Margin="295,346,0,0" VerticalAlignment="Top"/>
+                    <ComboBox SelectionChanged="cmbGroupHeader_SelectionChanged" Name="cmbPackageType" TabIndex="21"  IsEditable="True" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="416,349,0,0"/>
+                    <Button Name="btnCancel" Click="btnCancel_Click_1" TabIndex="23" Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="480,490,0,0" />
+                    <Button TabIndex="22"  Content="Add" Name="btnAdd" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="388,490,0,0" Click="btnAdd_Click"/>
+                    <Label Content="Family Name" HorizontalAlignment="Left" Margin="295,384,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="txtFamilyName" TabIndex="21" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="139" Margin="416,387,0,0"/>
+
+                    <RadioButton Visibility="Collapsed" Name="rb1" IsChecked="True" Content="Number" GroupName="Group1" Margin="295,417,0,105" Click="RadioButton_Click"></RadioButton>
+                    <RadioButton Visibility="Collapsed" Name="rb2" Content="Square Feet" GroupName="Group1" Margin="295,444,0,78" Click="RadioButton_Click"></RadioButton>
+                    <RadioButton Visibility="Collapsed" Name="rb3" Content="Running Feet" GroupName="Group1" Margin="295,473,0,49" Click="RadioButton_Click"></RadioButton>
+
+                    <Grid Height="30" Margin="0,511,382,1">
+                        <TextBlock HorizontalAlignment="Left" Margin="0,4,2,-4">
+                            <Hyperlink NavigateUri="http://www.kkmsoft.com/">Developed by KKMSOFT</Hyperlink>
+                        </TextBlock>
+                    </Grid>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Search" IsEnabled="False">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="1">
+                        <DataGrid>
+
+                        </DataGrid>
+                    </Grid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

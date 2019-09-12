@@ -1,0 +1,33 @@
+﻿<Window x:Class="Kewaunee.FumeHoodVariants"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:wpfx="http://schemas.microsoft.com/winfx/2006/xaml/presentation/toolkit/extended"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        
+        Title="Variants" Height="365" WindowStyle="SingleBorderWindow" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Width="850">
+    <Grid>
+        <GroupBox Header="Variants" BorderBrush="Black" BorderThickness="1" Margin="5,0,0,5" HorizontalAlignment="Left" Width="450">
+            <Grid HorizontalAlignment="Left" Width="450">
+                <Label Content="Fume Hood Variants" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,10,0,0"/>
+
+                <wpfx:CheckListBox Margin="10,40,20,40" Name="cmbOtherVariants"></wpfx:CheckListBox>
+
+                <Label Visibility="Collapsed" Content="Handle Style" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,211,0,0"/>
+                <ComboBox Visibility="Collapsed" HorizontalAlignment="Left" VerticalAlignment="Top" Width="524" Margin="154,215,0,0"/>
+                <Button Name="btnUpdate" Click="btnUpdate_Click_1" Content="Update" VerticalAlignment="Bottom" Margin="0,0,20,10" Width="75" HorizontalAlignment="Right" Height="26"/>
+
+            </Grid>
+        </GroupBox>
+        <GroupBox Margin="456,0,0,5" Header="Fumehood Accessories" BorderBrush="Black" BorderThickness="1">
+            <wpfx:CheckListBox Margin="3" Name="cbxAccessories">
+                
+            </wpfx:CheckListBox>
+        </GroupBox>
+
+        <Grid Height="30" Margin="0,280,0,-5">
+            <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0">
+                            <Hyperlink NavigateUri="http://www.kkmsoft.com/">Developed by KKMSOFT</Hyperlink>
+            </TextBlock>
+        </Grid>
+
+    </Grid>
+</Window>

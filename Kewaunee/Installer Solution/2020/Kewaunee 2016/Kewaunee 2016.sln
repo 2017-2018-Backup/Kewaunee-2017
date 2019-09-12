@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Kewaunee 2016", "Kewaunee 2016\Kewaunee 2016.vdproj", "{DA5DFEBD-18C2-4F76-BEB9-DE99CA74B861}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA5DFEBD-18C2-4F76-BEB9-DE99CA74B861}.Debug|Default.ActiveCfg = Debug
+		{DA5DFEBD-18C2-4F76-BEB9-DE99CA74B861}.Debug|Default.Build.0 = Debug
+		{DA5DFEBD-18C2-4F76-BEB9-DE99CA74B861}.Release|Default.ActiveCfg = Release
+		{DA5DFEBD-18C2-4F76-BEB9-DE99CA74B861}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

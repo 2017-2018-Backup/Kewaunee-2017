@@ -1,0 +1,8 @@
+﻿<Application x:Class="Kewaunee.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="ProjectsCatalogue.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

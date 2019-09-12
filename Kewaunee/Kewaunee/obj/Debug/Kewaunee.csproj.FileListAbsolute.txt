@@ -1,0 +1,134 @@
+D:\Kewaunee\Kewaunee\Kewaunee\bin\Debug\Kewaunee.exe.config
+D:\Kewaunee\Kewaunee\Kewaunee\bin\Debug\Kewaunee.exe
+D:\Kewaunee\Kewaunee\Kewaunee\bin\Debug\Kewaunee.pdb
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\App.g.cs
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\Kewaunee_MarkupCompile.cache
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\Kewaunee.g.resources
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\Kewaunee.Properties.Resources.resources
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\Kewaunee.csproj.GenerateResource.Cache
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\Kewaunee.exe
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\Kewaunee.pdb
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\Customer.baml
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\Customer.g.cs
+D:\Kewaunee\Kewaunee\Kewaunee\bin\Debug\Resources\customer-experience-icon.ico
+D:\Kewaunee\Kewaunee\Kewaunee\bin\Debug\Resources\search-loop-512.png
+D:\Kewaunee\Kewaunee\Kewaunee\bin\Debug\Resources\reload.png
+D:\Kewaunee\Kewaunee\Kewaunee\bin\Debug\Resources\Add_user_icon_(blue).svg.png
+D:\Kewaunee\Kewaunee\Kewaunee\bin\Debug\Resources\-remove-button-delete-denied-red-round-cancel.png
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\TaxMaster.baml
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\TaxMaster.g.cs
+D:\Kewaunee\Kewaunee\Kewaunee\bin\Debug\Resources\tax-icon-25.ico
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\LoginCreation.baml
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\Products.baml
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\LoginCreation.g.cs
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\Products.g.cs
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\ProjectCreation.baml
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\VariantMaster.baml
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\ProjectCreation.g.cs
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\VariantMaster.g.cs
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\UserProfile.baml
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\UserProfile.g.cs
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\Kewaunee.csprojResolveAssemblyReference.cache
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\ProjectsCatalogue.baml
+D:\Kewaunee\Kewaunee\Kewaunee\obj\Debug\ProjectsCatalogue.g.cs
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\bin\Debug\Resources\customer-experience-icon.ico
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\bin\Debug\Resources\tax-icon-25.ico
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\bin\Debug\Resources\search-loop-512.png
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\bin\Debug\Resources\reload.png
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\bin\Debug\Resources\Add_user_icon_(blue).svg.png
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\bin\Debug\Resources\-remove-button-delete-denied-red-round-cancel.png
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\bin\Debug\Kewaunee.dll.config
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\bin\Debug\Kewaunee.dll
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\bin\Debug\Kewaunee.pdb
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Kewaunee.csprojResolveAssemblyReference.cache
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Currency.baml
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Customer.baml
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\FumeHoodVariants.baml
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Login.baml
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\LoginCreation.baml
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Parameters.baml
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Pricing.baml
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\ProjectCreation.baml
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\ProjectsCatalogue.baml
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\SalesQuote.baml
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Tagging.baml
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\TaxMaster.baml
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Products.baml
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\UserProfile.baml
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\VariantMaster.baml
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Currency.g.cs
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Customer.g.cs
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\FumeHoodVariants.g.cs
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Login.g.cs
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\MainDockablePage.g.cs
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\LoginCreation.g.cs
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Parameters.g.cs
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Pricing.g.cs
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\ProjectCreation.g.cs
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\ProjectsCatalogue.g.cs
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\SalesQuote.g.cs
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Tagging.g.cs
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\TaxMaster.g.cs
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Products.g.cs
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\UserProfile.g.cs
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\VariantMaster.g.cs
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Kewaunee_MarkupCompile.cache
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Kewaunee_MarkupCompile.lref
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\MainDockablePage.baml
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Kewaunee.g.resources
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Kewaunee.Properties.Resources.resources
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Kewaunee.csproj.GenerateResource.Cache
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Kewaunee.dll
+E:\Chokkalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Kewaunee.pdb
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Kewaunee.csprojResolveAssemblyReference.cache
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Currency.baml
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Customer.baml
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\FumeHoodVariants.baml
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Login.baml
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\LoginCreation.baml
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Parameters.baml
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Pricing.baml
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\ProjectCreation.baml
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\ProjectsCatalogue.baml
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\SalesQuote.baml
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Tagging.baml
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\TaxMaster.baml
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Products.baml
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\UserProfile.baml
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\VariantMaster.baml
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Currency.g.cs
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Customer.g.cs
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\FumeHoodVariants.g.cs
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Login.g.cs
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\MainDockablePage.g.cs
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\LoginCreation.g.cs
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Parameters.g.cs
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Pricing.g.cs
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\ProjectCreation.g.cs
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\ProjectsCatalogue.g.cs
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\SalesQuote.g.cs
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Tagging.g.cs
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\TaxMaster.g.cs
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Products.g.cs
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\UserProfile.g.cs
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\VariantMaster.g.cs
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Kewaunee_MarkupCompile.cache
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Kewaunee_MarkupCompile.lref
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\MainDockablePage.baml
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Kewaunee.g.resources
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Kewaunee.Properties.Resources.resources
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Kewaunee.csproj.GenerateResource.Cache
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Kewaunee.dll
+E:\Chockalingam\Kewaunee 2017\Kewaunee\Kewaunee\obj\Debug\Kewaunee.pdb
+C:\ProgramData\Autodesk\Revit\Addins\2016\Properties\Resources.resx
+C:\ProgramData\Autodesk\Revit\Addins\2016\Properties\Resources.Designer.cs
+C:\ProgramData\Autodesk\Revit\Addins\2016\Kewaunee.dll.config
+C:\ProgramData\Autodesk\Revit\Addins\2016\Kewaunee.dll
+C:\ProgramData\Autodesk\Revit\Addins\2016\Kewaunee.pdb
+C:\ProgramData\Autodesk\Revit\Addins\2016\Kewaunee\Revit\Properties\Resources.resx
+C:\ProgramData\Autodesk\Revit\Addins\2016\Kewaunee\Revit\Properties\Resources.Designer.cs
+C:\ProgramData\Autodesk\Revit\Addins\2016\Kewaunee\Revit\Kewaunee.dll.config
+C:\ProgramData\Autodesk\Revit\Addins\2016\Kewaunee\Revit\Kewaunee.dll
+C:\ProgramData\Autodesk\Revit\Addins\2016\Kewaunee\Revit\Kewaunee.pdb

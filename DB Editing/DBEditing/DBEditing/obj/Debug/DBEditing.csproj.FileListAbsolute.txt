@@ -1,0 +1,18 @@
+D:\KKM\Kewaunee\DB Editing\DBEditing\DBEditing\bin\Debug\DBEditing.exe.config
+D:\KKM\Kewaunee\DB Editing\DBEditing\DBEditing\bin\Debug\DBEditing.exe
+D:\KKM\Kewaunee\DB Editing\DBEditing\DBEditing\bin\Debug\DBEditing.pdb
+D:\KKM\Kewaunee\DB Editing\DBEditing\DBEditing\obj\Debug\DBEditing.Form1.resources
+D:\KKM\Kewaunee\DB Editing\DBEditing\DBEditing\obj\Debug\DBEditing.Properties.Resources.resources
+D:\KKM\Kewaunee\DB Editing\DBEditing\DBEditing\obj\Debug\DBEditing.csproj.GenerateResource.Cache
+D:\KKM\Kewaunee\DB Editing\DBEditing\DBEditing\obj\Debug\DBEditing.exe
+D:\KKM\Kewaunee\DB Editing\DBEditing\DBEditing\obj\Debug\DBEditing.pdb
+D:\KKM\Kewaunee\DB Editing\DBEditing\DBEditing\obj\Debug\DBEditing.csprojResolveAssemblyReference.cache
+E:\Chockalingam\Kewaunee 2017\DB Editing\DBEditing\DBEditing\bin\Debug\DBEditing.exe.config
+E:\Chockalingam\Kewaunee 2017\DB Editing\DBEditing\DBEditing\obj\Debug\DBEditing.exe
+E:\Chockalingam\Kewaunee 2017\DB Editing\DBEditing\DBEditing\obj\Debug\DBEditing.pdb
+E:\Chockalingam\Kewaunee 2017\DB Editing\DBEditing\DBEditing\bin\Debug\DBEditing.exe
+E:\Chockalingam\Kewaunee 2017\DB Editing\DBEditing\DBEditing\bin\Debug\DBEditing.pdb
+E:\Chockalingam\Kewaunee 2017\DB Editing\DBEditing\DBEditing\obj\Debug\DBEditing.csprojResolveAssemblyReference.cache
+E:\Chockalingam\Kewaunee 2017\DB Editing\DBEditing\DBEditing\obj\Debug\DBEditing.Form1.resources
+E:\Chockalingam\Kewaunee 2017\DB Editing\DBEditing\DBEditing\obj\Debug\DBEditing.Properties.Resources.resources
+E:\Chockalingam\Kewaunee 2017\DB Editing\DBEditing\DBEditing\obj\Debug\DBEditing.csproj.GenerateResource.Cache

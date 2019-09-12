@@ -1,0 +1,183 @@
+﻿<Window x:Class="Kewaunee.Customer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Customer" ResizeMode="NoResize" Width="670" Height="480" WindowStyle="SingleBorderWindow" Closed="Window_Closed_1" Closing="Window_Closing_1" WindowStartupLocation="CenterScreen" Icon="C:\ProgramData\Autodesk\Revit\Addins\2016\Kewaunee\Revit\Resources\customer-experience-icon.ico">
+    <Window.Resources>
+        <Style x:Key="Flat">
+            <Setter Property="Control.Background" Value="{x:Null}" />
+            <Setter Property="Control.BorderBrush" Value="{x:Null}" />
+            <Style.Triggers>
+                <Trigger Property="Control.IsMouseOver" Value="True">
+                    <Setter Property="Control.Background" Value="{x:Null}" />
+                    <Setter Property="Control.BorderBrush" Value="{x:Null}" />
+                    <Setter Property="Control.FontWeight" Value="Bold" />
+                </Trigger>
+                <Trigger Property="Control.IsFocused" Value="True">
+                    <Setter Property="Control.FontWeight" Value="Normal" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid Background="Transparent" Margin="6,6,6,0" Height="438" VerticalAlignment="Top">
+        <TabControl Background="Transparent" SelectionChanged="TabControl_SelectionChanged_1" Name="tbControl" Height="428" VerticalAlignment="Top">
+            <TabItem Header="Add User" Width="80"  Name="tabAddUser" FontSize="14">
+                <Grid Height="431" VerticalAlignment="Top">
+                    <Label FontSize="12" Content="Code*" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="44" Margin="5,7,0,0"/>
+                    <TextBox TabIndex="0" Name="txtCode" IsEnabled="False" IsReadOnly="True" Margin="76,12,328,0" Height="26" VerticalAlignment="Top"/>
+                    <Label FontSize="12" Content="Name*" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="70" Margin="5,49,0,0"/>
+                    <TextBox TabIndex="1" Name="txtName"  Margin="76,54,328,0" Height="26" VerticalAlignment="Top"/>
+
+                    <Label FontSize="12" Content="Address" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="70" Margin="5,92,0,0"/>
+                    <TextBox TabIndex="2" Name="txtAddress" Margin="76,92,328,0" Height="30" VerticalAlignment="Top"></TextBox>
+                    <Label FontSize="12" Content="City*" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="70" Margin="7,135,0,0"/>
+                    <TextBox TabIndex="3" Name="txtCity"  Margin="78,140,326,0" Height="26" VerticalAlignment="Top"/>
+                    <Label FontSize="12" Content="State*" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="70" Margin="7,178,0,0"/>
+                    <TextBox TabIndex="4" Name="txtState" Margin="78,183,326,0" Height="26" VerticalAlignment="Top"/>
+                    <Label FontSize="12" Content="Country*" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="70" Margin="7,220,0,0"/>
+                    <TextBox TabIndex="5" Name="txtCountry"  Margin="78,225,326,0" Height="26" VerticalAlignment="Top"/>
+                    <Label FontSize="12" Content="Phone No*" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="76" Margin="7,262,0,0"/>
+                    <TextBox TabIndex="6" Name="txtPhoneNo"  Margin="78,267,326,0" Height="26" VerticalAlignment="Top"/>
+                    <Label FontSize="12" Content="Mobile No*" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="76" Margin="7,304,0,0"/>
+                    <TextBox TabIndex="7" Name="txtMobileNo"   Margin="78,309,326,0" Height="26" VerticalAlignment="Top" />
+                    <Label FontSize="12" Content="Fax No" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="95" Margin="310,7,0,0"/>
+                    <TextBox TabIndex="8" Name="txtFaxNo"  Width="214" Height="26" Margin="411,12,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <Label FontSize="12" Content="Primary Contact" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="95" Margin="310,49,0,0"/>
+                    <TextBox TabIndex="9" Name="txtPrimaryContact"  Width="214" Height="26"  Margin="411,54,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <Label FontSize="12" Content="Designation" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="95" Margin="312,135,0,0"/>
+                    <TextBox TabIndex="12" Name="txtDesignation" Width="214" Height="26" Margin="413,140,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <Label x:Name="lblLogo" FontSize="12" Content="Logo" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="95" Margin="312,91,0,0"/>
+                    <TextBox TabIndex="10" Name="txtLogoPath" Height="26"  Margin="413,96,0,0" HorizontalAlignment="Left" Width="180" VerticalAlignment="Top"/>
+                    <Button TabIndex="11" Content="..." Margin="594,94,0,0" HorizontalAlignment="Left" Width="31" Height="28" VerticalAlignment="Top" Name="btnBrowse" Click="btnBrowse_Click" />
+                    <CheckBox Margin="411,98,124,305" Height="28" Content="Update Logo" x:Name="chkUpdateLogo" Visibility="Collapsed" Checked="chkUpdateLogo_Checked_1"/>
+                    <Label  FontSize="12" Content="Tin No" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="95" Margin="312,178,0,0"/>
+                    <TextBox TabIndex="13" Name="txtPinNo" Height="26"  Margin="413,183,0,0" HorizontalAlignment="Left" Width="214" VerticalAlignment="Top"/>
+                    <Label FontSize="12" Content="CST No" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="95" Margin="312,220,0,0"/>
+                    <TextBox TabIndex="14" Name="txtPSDNo" Height="26"  Margin="413,225,0,0" HorizontalAlignment="Left" Width="214" VerticalAlignment="Top"/>
+                    <Label FontSize="12" Content="VAT No" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="95" Margin="312,262,0,0"/>
+                    <TextBox TabIndex="15" Name="txtWapNo" Height="26"  Margin="413,267,0,0" HorizontalAlignment="Left" Width="214" VerticalAlignment="Top"/>
+                    <TextBlock FontSize="12" TextWrapping="Wrap" Text="Service Tax Registration No" HorizontalAlignment="Left" Height="36" VerticalAlignment="Top" Width="95" Margin="312,304,0,0"/>
+                    <TextBox TabIndex="16" Name="txtServiceTaxNo" Height="26"  Margin="413,309,0,0" HorizontalAlignment="Left" Width="214" VerticalAlignment="Top"/>
+                    <Button TabIndex="17" Name="btnAdd" Height="30" BorderThickness="1" BorderBrush="Black" Width="90" Margin="430,354,0,0" Style="{DynamicResource Flat}" VerticalAlignment="Top" HorizontalAlignment="Left" Click="btnAdd_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Margin="0,0,10,0" Source="C:\ProgramData\Autodesk\Revit\Addins\2016\Kewaunee\Revit\Resources\Add_user_icon_(blue).svg.png" Height="24"></Image>
+                            <TextBlock Name="TxtAdd" Text="Add"/>
+                        </StackPanel>
+                    </Button>
+                    <Button TabIndex="18" Style="{DynamicResource Flat}" BorderBrush="Black" BorderThickness="1" x:Name="btnCancel" Height="30" Width="90" Margin="535,354,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="btnCancel_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Margin="0,0,10,0" Source="C:\ProgramData\Autodesk\Revit\Addins\2016\Kewaunee\Revit\Resources\-remove-button-delete-denied-red-round-cancel.png" Height="20"></Image>
+                            <TextBlock Name="TxtCancel" Text="Cancel"></TextBlock>
+                        </StackPanel>
+                    </Button>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Search" Width="80" Name="tabSearch">
+                <Grid>
+                    <TextBox TabIndex="0" Name="txtSearch" TextWrapping="Wrap" Margin="387,10,0,0" HorizontalAlignment="Left" Width="174" Height="30" VerticalAlignment="Top" TextChanged="txtSearch_TextChanged_1"/>
+                    <Button TabIndex="1" BorderBrush="Transparent" Style="{DynamicResource Flat}" Height="30" Margin="562,10,0,0" HorizontalAlignment="Left" Width="33" VerticalAlignment="Top" Name="btnSearch" Click="btnSearch_Click_1">
+
+                        <StackPanel>
+                            <Image Source="C:\ProgramData\Autodesk\Revit\Addins\2016\Kewaunee\Revit\Resources\search-loop-512.png" Height="24"></Image>
+                        </StackPanel>
+                    </Button>
+                    <Button TabIndex="2" BorderBrush="Transparent" Style="{DynamicResource Flat}" Height="30" Margin="599,10,0,0" HorizontalAlignment="Left" Width="33" VerticalAlignment="Top" Name="btnReferesh" Click="btnRefresh_Click">
+
+                        <StackPanel>
+                            <Image Source="C:\ProgramData\Autodesk\Revit\Addins\2016\Kewaunee\Revit\Resources\reload.png" VerticalAlignment="Center" HorizontalAlignment="Center" Height="24"></Image>
+                        </StackPanel>
+                    </Button>
+                    <DataGrid TabIndex="2" ColumnWidth="*" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" GridLinesVisibility="All"  Margin="0,53,0,0" Background="White" Name="dgCustomer" CanUserAddRows="False" AutoGenerateColumns="False" IsReadOnly="True" CanUserResizeRows="False" CanUserDeleteRows="False" RowHeaderWidth="0" Height="340" VerticalAlignment="Top" HorizontalAlignment="Left" Width="632">
+
+                        <DataGrid.RowStyle>
+                            <Style TargetType="DataGridRow">
+                                <Setter Property="Background" Value="White"></Setter>
+                                <Setter Property="Foreground" Value="Black"></Setter>
+                                <Setter Property="TextBlock.TextAlignment" Value="Center" />
+                            </Style>
+                        </DataGrid.RowStyle>
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Code}"  Header="Code">
+                                <DataGridTextColumn.HeaderStyle>
+                                    <Style TargetType="DataGridColumnHeader">
+                                        <Setter Property="HorizontalContentAlignment"
+                 Value="Center" />
+                                    </Style>
+                                </DataGridTextColumn.HeaderStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Binding="{Binding Name}" Header="Name" >
+                                <DataGridTextColumn.HeaderStyle>
+                                    <Style TargetType="DataGridColumnHeader">
+                                        <Setter Property="HorizontalContentAlignment"
+                 Value="Center" />
+                                    </Style>
+                                </DataGridTextColumn.HeaderStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Binding="{Binding Address}" Header="Address" >
+                                <DataGridTextColumn.HeaderStyle>
+                                    <Style TargetType="DataGridColumnHeader">
+                                        <Setter Property="HorizontalContentAlignment"
+                 Value="Center" />
+                                    </Style>
+                                </DataGridTextColumn.HeaderStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Binding="{Binding City}" Header="City" >
+                                <DataGridTextColumn.HeaderStyle>
+                                    <Style TargetType="DataGridColumnHeader">
+                                        <Setter Property="HorizontalContentAlignment"
+                 Value="Center" />
+                                    </Style>
+                                </DataGridTextColumn.HeaderStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Binding="{Binding State}" Header="State">
+                                <DataGridTextColumn.HeaderStyle>
+                                    <Style TargetType="DataGridColumnHeader">
+                                        <Setter Property="HorizontalContentAlignment"
+                 Value="Center" />
+                                    </Style>
+                                </DataGridTextColumn.HeaderStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Binding="{Binding Country}" Header="Country" >
+                                <DataGridTextColumn.HeaderStyle>
+                                    <Style TargetType="DataGridColumnHeader">
+                                        <Setter Property="HorizontalContentAlignment"
+                 Value="Center" />
+                                    </Style>
+                                </DataGridTextColumn.HeaderStyle>
+                            </DataGridTextColumn>
+                            <DataGridTemplateColumn>
+                                <DataGridTemplateColumn.HeaderStyle>
+                                    <Style TargetType="DataGridColumnHeader">
+                                        <Setter Property="HorizontalContentAlignment"
+                 Value="Center" />
+                                    </Style>
+                                </DataGridTemplateColumn.HeaderStyle>
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock>
+                                            <Hyperlink Name="hyperEdit" Click="hyperEdit_Click_1">Edit</Hyperlink>
+                                        </TextBlock>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn>
+                                <DataGridTemplateColumn.HeaderStyle>
+                                    <Style TargetType="DataGridColumnHeader">
+                                        <Setter Property="HorizontalContentAlignment"                Value="Center" />
+                                    </Style>
+                                </DataGridTemplateColumn.HeaderStyle>
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock>
+                                            <Hyperlink Name="hyperDelete" Click="hyperDelete_Click_1">Delete</Hyperlink>
+                                        </TextBlock>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+    </Grid>
+</Window>

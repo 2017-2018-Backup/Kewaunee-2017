@@ -1,0 +1,9 @@
+E:\Chokkalingam\Kewaunee 2017\AddIn\KewauneeTaskAssigner\bin\Debug\KewauneeTaskAssigner.dll
+E:\Chokkalingam\Kewaunee 2017\AddIn\KewauneeTaskAssigner\bin\Debug\KewauneeTaskAssigner.pdb
+E:\Chokkalingam\Kewaunee 2017\AddIn\KewauneeTaskAssigner\obj\Debug\KewauneeTaskAssigner.dll
+E:\Chokkalingam\Kewaunee 2017\AddIn\KewauneeTaskAssigner\obj\Debug\KewauneeTaskAssigner.pdb
+E:\Chockalingam\Kewaunee 2017\AddIn\KewauneeTaskAssigner\bin\Debug\KewauneeTaskAssigner.dll
+E:\Chockalingam\Kewaunee 2017\AddIn\KewauneeTaskAssigner\bin\Debug\KewauneeTaskAssigner.pdb
+E:\Chockalingam\Kewaunee 2017\AddIn\KewauneeTaskAssigner\obj\Debug\KewauneeTaskAssigner.dll
+E:\Chockalingam\Kewaunee 2017\AddIn\KewauneeTaskAssigner\obj\Debug\KewauneeTaskAssigner.pdb
+E:\Chockalingam\Kewaunee 2017\AddIn\KewauneeTaskAssigner\obj\Debug\KewauneeTaskAssigner.csprojResolveAssemblyReference.cache

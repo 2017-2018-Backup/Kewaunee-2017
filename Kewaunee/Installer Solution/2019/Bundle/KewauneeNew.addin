@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Application AddIn</Name>
+    <Assembly>.\AddIn.dll</Assembly>
+    <AddInId>D985C555-FFF3-4E05-824B-B52017409CC2</AddInId>
+    <FullClassName>AddIn.RvtApplication</FullClassName>
+    <VendorId>KKM_</VendorId>
+  </AddIn>
+</RevitAddIns>

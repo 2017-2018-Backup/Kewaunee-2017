@@ -1,0 +1,10 @@
+C:\ProgramData\Autodesk\Revit\Addins\2016\Properties\Resources.resx
+C:\ProgramData\Autodesk\Revit\Addins\2016\Properties\Resources.Designer.cs
+C:\ProgramData\Autodesk\Revit\Addins\2016\AddIn.dll
+C:\ProgramData\Autodesk\Revit\Addins\2016\AddIn.pdb
+E:\Chokkalingam\Kewaunee 2017\AddIn\AddIn\obj\Debug\AddIn.csprojResolveAssemblyReference.cache
+E:\Chokkalingam\Kewaunee 2017\AddIn\AddIn\obj\Debug\AddIn.dll
+E:\Chokkalingam\Kewaunee 2017\AddIn\AddIn\obj\Debug\AddIn.pdb
+E:\Chockalingam\Kewaunee 2017\AddIn\AddIn\obj\Debug\AddIn.csprojResolveAssemblyReference.cache
+E:\Chockalingam\Kewaunee 2017\AddIn\AddIn\obj\Debug\AddIn.dll
+E:\Chockalingam\Kewaunee 2017\AddIn\AddIn\obj\Debug\AddIn.pdb

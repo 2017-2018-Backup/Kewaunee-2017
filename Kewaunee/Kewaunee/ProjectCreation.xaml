@@ -1,0 +1,96 @@
+﻿<Window x:Class="Kewaunee.ProjectCreation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="New Project" ResizeMode="NoResize" WindowState="Normal" WindowStyle="ThreeDBorderWindow" Closing="Window_Closing_1" Closed="Window_Closed_1" WindowStartupLocation="CenterScreen" Height="610" Width="768">
+    <Window.Resources>
+        <Style x:Key="Flat">
+            <Setter Property="Control.Background" Value="{x:Null}" />
+            <Setter Property="Control.BorderBrush" Value="{x:Null}" />
+            <Style.Triggers>
+                <Trigger Property="Control.IsMouseOver" Value="True">
+                    <Setter Property="Control.Background" Value="{x:Null}" />
+                    <Setter Property="Control.BorderBrush" Value="{x:Null}" />
+                    <Setter Property="Control.FontWeight" Value="Bold" />
+                </Trigger>
+                <Trigger Property="Control.IsFocused" Value="True">
+                    <Setter Property="Control.FontWeight" Value="Normal" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid Margin="5">
+        <TabControl>
+            <TabItem Header="Create Project">
+                <Grid>
+                    <GroupBox Header="Project Details" Height="64" VerticalAlignment="Top">
+                        <Grid>
+                            <Label Content="Project No" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,8,0,0"/>
+                            <TextBox TabIndex="0" Name="txtProjectNo" HorizontalAlignment="Left" Height="23"  VerticalAlignment="Top" Width="231" Margin="118,10,0,0" LostFocus="txtProjectNo_LostFocus"/>
+                            <Label Content="Project Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="361,10,0,0"/>
+                            <TextBox TabIndex="1" Name="txtProjectName" HorizontalAlignment="Left" Height="23"  VerticalAlignment="Top" Width="252" Margin="456,11,0,0"/>
+
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="Customer Details" Height="81" VerticalAlignment="Top" Margin="0,72,0,0">
+                        <Grid>
+                            <Label Content="Customer Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,9,0,0"/>
+                            <ComboBox TabIndex="2" Name="cmboCustomerName" HorizontalAlignment="Left" Height="23"  VerticalAlignment="Top" Width="230" Margin="118,10,0,0" SelectionChanged="cmboCustomerName_SelectionChanged"/>
+                            <TextBlock Text="Customer Name and Address" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="361,10,0,0" Height="39" Width="90"/>
+                            <TextBox IsReadOnly="True" TabIndex="3" Name="txtCustNameAddress" HorizontalAlignment="Left" Height="38" TextWrapping="Wrap"  VerticalAlignment="Top" Width="252" Margin="456,11,0,0"/>
+
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="Building Details" Height="114" VerticalAlignment="Top" Margin="0,158,0,0">
+                        <Grid>
+                            <Label Content="Building Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,8,0,0"/>
+                            <TextBox TabIndex="4" Name="txtBuildingName" HorizontalAlignment="Left" Height="23"  VerticalAlignment="Top" Width="232" Margin="118,10,0,0"/>
+                            <Label Content="Room No" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="361,10,0,0"/>
+                            <TextBox TabIndex="5" Name="txtRoomNo" HorizontalAlignment="Left" Height="23"  VerticalAlignment="Top" Width="252" Margin="456,11,0,0"/>
+                            <Label Content="Floor No" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,48,0,0"/>
+                            <TextBox TabIndex="6" Name="txtFloorNo" HorizontalAlignment="Left" Height="23"  VerticalAlignment="Top" Width="232" Margin="118,50,0,0"/>
+                            <Label Content="Lab Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="361,50,0,0"/>
+                            <TextBox TabIndex="7" Name="txtLabName" HorizontalAlignment="Left" Height="23"  VerticalAlignment="Top" Width="252" Margin="456,51,0,0"/>
+
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="Drawing Details" Height="64" VerticalAlignment="Top" Margin="0,274,0,0">
+                        <Grid>
+                            <Label Content="Drawing Rev No" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,8,0,0"/>
+                            <TextBox TabIndex="8" Name="txtDrawingRevNo" HorizontalAlignment="Left" Height="23"  VerticalAlignment="Top" Width="587" Margin="118,10,0,0"/>
+
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Name="gbBuildingDetails" Visibility="Visible" Header="Lab Details" Height="114" VerticalAlignment="Top" Margin="0,340,0,0">
+                        <Grid>
+                            <Label Content="Length(m)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,8,0,0"/>
+                            <TextBox PreviewTextInput="txtfalsecielingHieght_PreviewTextInput_1" TabIndex="9" Name="txtLabLength" HorizontalAlignment="Left" Height="23"  VerticalAlignment="Top" Width="228" PreviewKeyDown="txtLabLength_PreviewKeyDown_1" Margin="118,10,0,0"/>
+                            <Label Content="True ceiling height(m)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="348,10,0,0"/>
+                            <TextBox PreviewTextInput="txtfalsecielingHieght_PreviewTextInput_1" PreviewKeyDown="txtLabLength_PreviewKeyDown_1" TabIndex="10" Name="txttruecielingHieght" HorizontalAlignment="Left" Height="23"  VerticalAlignment="Top" Width="234" Margin="474,11,0,0"/>
+                            <Label Content="Width(m)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,48,0,0"/>
+                            <TextBox PreviewTextInput="txtfalsecielingHieght_PreviewTextInput_1" PreviewKeyDown="txtLabLength_PreviewKeyDown_1" TabIndex="11" Name="txtlabwidth" HorizontalAlignment="Left" Height="23"  VerticalAlignment="Top" Width="228" Margin="118,50,0,0"/>
+                            <Label Visibility="Collapsed" Content="False ceiling height(m)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="348,50,0,0"/>
+                            <TextBox  Visibility="Collapsed" PreviewTextInput="txtfalsecielingHieght_PreviewTextInput_1" PreviewKeyDown="txtLabLength_PreviewKeyDown_1" TabIndex="12" Name="txtfalsecielingHieght" HorizontalAlignment="Left" Height="23"  VerticalAlignment="Top" Width="234" Margin="474,51,0,0"/>
+
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Name="gbBrowse" Visibility="Collapsed" Header="Browse Project" Height="67" VerticalAlignment="Top" Margin="0,340,0,0">
+                        <Grid>
+                            <Label Content="Select Project" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,8,0,0"/>
+                            <TextBox Name="txtBrowsePath" IsEnabled="False" HorizontalAlignment="Left" Height="23"  VerticalAlignment="Top" Width="554" Margin="114,10,0,0"/>
+                            <Button TabIndex="9" Name="btnBrowse" Click="btnBrowse_Click_1" Content="..." Height="23" Width="29" Margin="673,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
+
+                        </Grid>
+                    </GroupBox>
+                    <Button TabIndex="14" Click="btnClose_Click_1"  Name="btnClose" Content="Close" HorizontalAlignment="Left" Width="75" Margin="636,0,0,20" Height="30" VerticalAlignment="Bottom"/>
+                    <Button TabIndex="13" Name="btnCreateProject" Content="Create Project" Click="btnCreateProject_Click_1" HorizontalAlignment="Right" Width="90" Margin="0,0,129,20" Height="30" VerticalAlignment="Bottom"/>
+                    <Grid Height="30" Margin="0,510,31,0">
+                        <TextBlock HorizontalAlignment="Left" Margin="0,4,2,-4">
+                <Hyperlink NavigateUri="http://www.kkmsoft.com/">Developed by KKMSOFT</Hyperlink>
+                        </TextBlock>
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+    </Grid>
+</Window>
